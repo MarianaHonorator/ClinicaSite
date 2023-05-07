@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+body{
+    background-color: rgb(192, 175, 175);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 125%;
+   
+    
+}
+.wrapper {
+    width: 2000px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(149, 199, 199);
+    -webkit-box-shadow: 1px 6px 12px 12px rgba(47,117,112,0.29); 
+    box-shadow: 1px 6px 12px 12px rgba(47,117,112,0.29);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(149, 199, 199);
+    padding: 10px 10px 0px;
+    font-weight: 900;
+    position: right;
+    
+    
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 30px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 200px;
+    text-align: justify;
+    margin-top: auto;
+    font-size: 120%;
+    display: block;
+   
+}
+.footer {
+    background-color: rgb(5, 108, 108);
+    min-height: 80px;
+   font-size: 65%;
+    padding: 5%;
+    color: aliceblue;
+   
+}
+fieldset{
+    color:rgba(30, 54, 54, 0.747);
+    border-color: rgba(30, 54, 54, 0.219);
+    background-color: rgba(55, 99, 99, 0.432);
+    
+    
+    
+}
+#logo{
+    float: left;
+    padding: 20px;
+    max-width: 186px;
+}
+h1{
+    float: left;
+    color: rgb(216, 216, 216);
+    padding: 5px;
+    max-width: 400px;
+    
+}
+a{
+    color: rgba(30, 54, 54, 0.747);;
+}
+#banner{
+    width: 40%;
+    float: left;
+    margin-inline: 5%;
+    margin-top: 3%;
+    
+    
+}
+#atendimento{
+
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 170%;
+}
+#endereço{
+   margin-top: 2%;
+   text-align: center;
+   font-size: 170%;
+}
+#texto{
+   margin-top: -6%;
+   margin-bottom: 6%;
+    font-size: 120%;
+   
+}
+table thead th{
+    background-color:rgba(5, 108, 108, 0.911);
+    color: white;
+    float: center;
+
+}
+table tbody tr:hover td {
+    background-color: #E9E9E9;
+    cursor: pointer;
+ 
+
+
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: rgba(55, 99, 99, 0.432);
+}
+form{
+
+float: right;
+margin-top: -6%;
+
+}
+label{
+
+    display: inline-block;
+    width: 90px;
+    
+}
+h2{
+    color: rgba(5, 108, 108, 0.911);
+}
+
+
+
+
+
+
+
+
+
+
+
+
